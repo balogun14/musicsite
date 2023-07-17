@@ -10,7 +10,7 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 main{
@@ -20,7 +20,7 @@ main{
 }
 aside{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column ;
     flex: 0 0 40px;
     background-color: rgb(196, 192, 192);
     justify-content: space-around;
